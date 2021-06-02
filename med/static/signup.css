@@ -1,0 +1,121 @@
+a {
+    color:black;
+    text-decoration: none;
+}
+
+a:hover { 
+    text-decoration:none;  
+}
+body{
+    display: flex;
+    justify-content: center ;
+    flex-direction: column;
+    background-color: rgb(255, 244, 202);
+    padding-top: 10%;
+}
+span{
+    font-size: 12px;
+    margin: 10px 0;
+}
+form{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    padding: 3rem;
+}
+.container{
+    position: relative;
+    width: 768px;
+    max-width: 100%;
+    min-height: 480px;
+}
+.create-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    border-radius: 20px;
+    background-color: #ff3a3a;
+    border: none;
+    width: 150px;
+    padding: .5rem;
+    color: white;
+}
+.create-btn:hover{
+    background-color: rgb(236, 133, 92);
+}
+.form-head{
+    text-align: center;
+    padding-bottom: 5%;
+    font-size: 2.3rem;
+}
+.facebook{
+    margin: 20px;
+}
+.google{
+    margin: 20px;
+}
+.input{
+    margin-top: 10px;
+    border: none;
+    background-color: rgb(247, 244, 244);
+    padding: 10px;
+}
+.linkedin{
+    margin: 20px;
+}
+.left-container{
+    width: 50%;
+    height: 100%;
+    background-color: white;
+    position: absolute;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    box-shadow: 0 14px 28px rgb(0 0 0 / 25%);
+}
+.right-container{
+    width: 50%;
+    height: 100%;
+    background-color: #ff3a3a;
+    position: absolute;
+    left: 50%;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    text-align: center;
+    box-shadow: 0 14px 28px rgb(0 0 0 / 25%);
+}
+.right-head{
+    padding-top: 38%;
+    font-size: 2rem;
+    color: white;
+    margin-bottom: 20px;
+}
+.right-span{
+    color: white;
+    font-size: 16px;
+    padding: 20px;
+}
+.social-container{
+    margin: 0 20px;
+    height: 40px;
+    width: 200px;
+    align-items: center;
+    justify-content: center;
+    display: inline-flex;
+}
+.signin-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px auto;
+    border-radius: 20px;
+    background-color: #ff3a3a;
+    border: 5px solid;
+    border-width: 1px;
+    width: 150px;
+    padding: .5rem;
+    color: white;
+}
+
