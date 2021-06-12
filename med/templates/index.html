@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/4461c50f65.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="/Users/vismayrathod/Desktop/medicalwebsite/med/static/styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
+    <title>MediCure</title>
+</head>
+<body>
+    <section id="header">
+        <header>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <p class="header-left-text">Welcome to Professional Healthcare</p>
+                    </div>
+                    <div class="col head-col">
+                        <span class="phone-icon">
+                            <i class="fas fa-phone-alt"> 022 26456783</i>
+                        </span>
+                        <span class="date-icon">
+                            <i class="far fa-calendar-plus"> 6:00 AM - 10:00 PM (Mon-Fri)</i>
+                        </span>
+                        <span class="email-icon">
+                            <i class="fas fa-envelope"> medicure@gmail.com</i>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </header>
+    </section>
+
+    <hr>
+    
+    <!--navbar-->
+    <nav class="navbar navbar-expand-lg sticky-top navbar-light ">
+        <div class="container">
+          <a class="navbar-brand" href="#">MediCure</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse navbar-pad" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Doctors</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">News</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+              <li class="nav-item">
+                <button type="button" class="btn appoint-btn">Make an Appointment</button>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+
+    <!--Carousal-->
+    <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">  
+            <img src="/Users/vismayrathod/Desktop/medicalwebsite/med/images/slider1.jpg" class="carousal-img d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+                <p class="sb1-text">Lets Make Your Life Happier</p>
+                <h1 class="sb1-head">Healthy Living</h1>
+                <div class="sb1"> 
+                    <button class="btn slider-btn-1">Meet Our Doctors</button>
+                </div>
+            </div>
+        </div>
+          <div class="carousel-item">
+            <img src="/Users/vismayrathod/Desktop/medicalwebsite/med/images/slider2.jpg" class="carousal-img d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+                <p class="sb2-text">Lets Make Your Life Happier</p>
+                <h1 class="sb2-head">New Lifestyle</h1>
+                <div class="sb2"> 
+                    <button class="btn slider-btn-2">More About us</button>
+                </div>
+            </div>
+        </div>
+          <div class="carousel-item">
+            <img src="/Users/vismayrathod/Desktop/medicalwebsite/med/images/slider3.jpg" class="carousal-img d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+                <p class="sb3-text">Lets Make Your Life Happier</p>
+                <h1 class="sb3-head">Your Health Benifits</h1>
+                <div class="sb3"> 
+                    <button class="btn slider-btn-3">Read More</button>
+                </div>
+            </div>
+        </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+
+    <!--Doctors-->
+    <div class="container">
+        <div class="row">
+            <div>
+                <h2 class="doc-heading">Our Doctors</h2>
+            </div>
+            <div class="col-md-4 col-sm-6 doc-box">
+                <img class="doc-img" src="/Users/vismayrathod/Desktop/medicalwebsite/med/images/team-image1.jpg" alt="">
+                <div class="doc-sub">
+                    <h3 class="">Doctors</h3>
+                    <p class="doc-type">General Physician</p>
+                    <hr class="doc-sep">
+                    <div>
+                        <i class="fas fa-phone-alt doc-phone-icon">  022 26456783</i>
+                    </div>
+                    <div>
+                        <i class="fas fa-envelope doc-email-icon"> medicure@gmail.com</i>
+                    </div>
+                    <ul class="doc-social">
+                        <li>
+                            <a href=""><i class="fas fa-envelope fa-2x"></i></a>
+                        </li>
+                        <li>
+                            <a href=""><i class="fab fa-linkedin fa-2x"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 doc-box">
+                <img class="doc-img" src="/Users/vismayrathod/Desktop/medicalwebsite/med/images/team-image2.jpg" alt="">
+                <div class="doc-sub">
+                    <h3 class="">Doctors</h3>
+                    <p class="doc-type">Oncologist</p>
+                    <hr class="doc-sep">
+                    <div>
+                        <i class="fas fa-phone-alt doc-phone-icon">  022 26456783</i>
+                    </div>
+                    <div>
+                        <i class="fas fa-envelope doc-email-icon"> medicure@gmail.com</i>
+                    </div>
+                    <ul class="doc-social">
+                        <li>
+                            <a href=""><i class="fas fa-envelope fa-2x"></i></a>
+                        </li>
+                        <li>
+                            <a href=""><i class="fab fa-linkedin fa-2x"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 doc-box">
+                <img class="doc-img" src="/Users/vismayrathod/Desktop/medicalwebsite/med/images/team-image3.jpg" alt="">
+                <div class="doc-sub">
+                    <h3>Doctors</h3>
+                    <p class="doc-type">Heptologist</p>
+                    <hr class="doc-sep">
+                    <div>
+                        <i class="fas fa-phone-alt doc-phone-icon">  022 26456783</i>
+                    </div>
+                    <div>
+                        <i class="fas fa-envelope doc-email-icon"> medicure@gmail.com</i>
+                    </div>
+                    <ul class="doc-social">
+                        <li>
+                            <a href=""><i class="fas fa-envelope fa-2x"></i></a>
+                        </li>
+                        <li>
+                            <a href=""><i class="fab fa-linkedin fa-2x"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!--Services-->
+    <section id=services>
+        <div class="container serv">
+            <div class="row">
+                <div>
+                    <h1 class="serv-head">Our Services</h1>
+                </div>
+                <div>
+                    <p class="serv-top-text">Quickly build an effective pricing table for your potential customers with this Bootstrap example. It’s built with default Bootstrap components and utilities with little customization.</p>
+                </div>
+                <div class="row col-md-6 col-sm-6 text-center serv-card">
+                    <div class="col serv-card-1">
+                      <div class="card mb-4 rounded-3 shadow-sm">
+                        <div class="card-header py-3 serv-card-1-header">
+                          <h4 class="my-0 fw-normal">Pro</h4>
+                        </div>
+                        <div class="card-body">
+                          <ul class="list-unstyled mt-3 mb-4">
+                            <li>20 users included</li>
+                            <li>10 GB of storage</li>
+                            <li>Priority email support</li>
+                            <li>Help center access</li>
+                          </ul>
+                          <button type="button" class="w-100 btn btn-lg serv-card-1-button">Get started</button>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col serv-card-2">
+                      <div class="card mb-4 rounded-3 shadow-sm">
+                        <div class="card-header py-3 serv-card-2-header">
+                          <h4 class="my-0 fw-normal">Enterprise</h4>
+                        </div>
+                        <div class="card-body">
+                          <ul class="list-unstyled mt-3 mb-4">
+                            <li>30 users included</li>
+                            <li>15 GB of storage</li>
+                            <li>Phone and email support</li>
+                            <li>Help center access</li>
+                          </ul>
+                          <button type="button" class="w-100 btn btn-lg serv-card-2-button">Contact us</button>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Appointment-->
+    <section id="appointment">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-sm-6">
+                    <img src="" alt="">
+                </div>
+                <div class="col-md-6 col-sm-6">
+                    <form action="" role="form" method="POST">
+                        <div>
+                            <h2 class="appoint-head">Make an Appointment</h2>
+                        </div>
+                        <div>
+                            <div class="row appoint-row">
+                                <div class="col appoint-lable">
+                                    <label class="appoint-name" for="name">Name</label><br>
+                                    <input class="form-control" type="text" name="name" id="name" placeholder="Your name">
+                                </div>
+                                <div class="col appoint-lable">
+                                    <label class="appoint-email" for="email">Email</label><br>
+                                    <input class="form-control" type="email" name="email" id="email" placeholder="Your Email">
+                                </div>
+                            </div>
+                            <div class="row appoint-row">
+                                <div class="col appoint-lable">
+                                    <label class="appoint-date" for="date">Select Date</label><br>
+                                    <input class="form-control" type="date" name="date" id="date">
+                                </div>
+                                <div class="col appoint-lable">
+                                    <label class="appoint-department" for="department">Select Department</label><br>
+                                    <select name="department" id="department">
+                                        <option value="">General Health</option>
+                                        <option value="">Liver Check</option>
+                                        <option value="">Heart Check</option>
+                                        <option value="">Medical Research</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <label for="" class="appoint-phone">Phone Number</label>
+                                <input type="tel" class="form-control" name="phone" id="phone" placeholder="Phone Number">
+                            </div>
+                            <div>
+                                <label for="" class="appoint-message">Additional Message</label>
+                                <textarea name="message" class="form-control" id="message" cols="30" rows="5" placeholder="Message"></textarea>
+                            </div>
+                            <button type="submit" class="btn form-control" id="appoint-submit">Submit</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--About Us-->
+    <section id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-sm-6">
+                    <h2>Welcome to Your Medicure Centre</h2>
+                    <p class="about-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum ab tempore obcaecati, eum qui dolore, quos quam cum suscipit quas similique explicabo sed fugit, mollitia sapiente illo deserunt provident aliquam harum repudiandae asperiores rerum ducimus veniam. Rem architecto perferendis nostrum rerum tenetur. Hic atque nam tempore ducimus corrupti harum deleniti quo ipsum sapiente voluptate. Nesciunt, obcaecati! Modi numquam ipsa amet a impedit dignissimos, voluptates facere qui magnam porro obcaecati. Debitis consequatur sequi cumque alias amet maiores maxime labore a sit.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Footer-->
+    <section id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-sm-4">
+                    <div class="foot-thumb">
+                        <div class="footer-contact">
+                            <h4>Contact Info</h4>
+                        </div>
+                        <p class="foot-txt-contact">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae quibusdam sapiente incidunt blanditiis ad facilis!</p>
+                        <div>
+                            <p><i class="fas fa-2x fa-phone-square-alt foot-sq-contact"></i> 0123456789</p>
+                            <p><i class="fas fa-2x fa-envelope-square foot-sq-contact"></i> medicure@gmail.com</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-4">
+                    <div class="foot-thumb">
+                        <h4>Latest News</h4>
+                        <div class="foot-stories-img">
+                            <img class="foot-news-img" src="/Users/vismayrathod/Desktop/medicalwebsite/med/images/news-image.jpg" alt="">
+                        </div>
+                        <div class="foot-stories-info">
+                            <a href="#"><h6 class="foot-stories-info-head">New Technology</h6></a>
+                            <span>May 2nd, 2021</span>
+                        </div>
+                        <br>
+                        <div class="foot-stories-img">
+                            <img class="foot-news-img" src="/Users/vismayrathod/Desktop/medicalwebsite/med/images/news-image.jpg" alt="">
+                        </div>
+                        <div class="foot-stories-info">
+                            <a href="#"><h6 class="foot-stories-info-head">Medical Miracle</h6></a>
+                            <span>June 23rd, 2021</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="foot-thumb">
+                        <div class="foot-opening-hrs">
+                            <h4>Opening Hours</h4>
+                            <p>
+                                <span>Monday - Friday</span>
+                                <span>06:00am - 10:00pm</span>
+                            </p>
+                            <p>
+                                <span>Saturday</span>
+                                <span>09:00am - 8:00pm</span>
+                            </p>
+                            <p>
+                                <span>Sunday</span>
+                                <span>Closed</span>
+                            </p>
+                        </div>
+                        <div class="foot-socials">
+                            <ul>
+                                <li><a href="#" class="fa fa-facebook-square"></a></li>
+                                <li><a href="#" class="fa fa-twitter"></a></li>
+                                <li><a href="#" class="fa fa-instagram"></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <hr class="foot-hr">
+                <div class="col">
+                    <div class="foot-copyright">
+                        <p>Copyright © 2021 vismay Rathod</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
