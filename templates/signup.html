@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://kit.fontawesome.com/4461c50f65.js" crossorigin="anonymous"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+  <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='signup.css') }}">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
+
+  <title>sign up</title>
+</head>
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col left-container">
+        <form action="#" method="POST">
+          <h1 class="form-head">Create Account</h1>
+          <div class="social-container">
+            <a href="" class="social">
+              <i class="fab fa-facebook fa-2x facebook"></i>
+            </a>
+            <a href="" class="social">
+              <i class="fab fa-google-plus fa-2x google"></i>
+            </a>
+            <a href="" class="social">
+              <i class="fab fa-linkedin fa-2x linkedin"></i>
+            </a>
+          </div>
+          <span>or sign-up via email</span>
+          <input class="input" type="text" placeholder="Username" name="username" id="">
+          <input class="input" type="email" placeholder="E-mail" name="email" id="">
+          <input class="input" type="password" placeholder="Password" name="password" id="">
+          <input type="submit" name="submit" value="Create Account" class="create-btn">
+        </form>
+      </div>
+      <div class="col right-container">
+        <h1 class="right-head">Already have an account?</h1>
+        <span class="right-span">To keep connected with us please login with your personal info</span>
+        <button type="button" class="signin-btn"><a href=""></a> Sign-in</button>
+      </div>
+      
+    </div>
+  </div>
+  <div>
+    {%if msg%}
+    {{msg}}
+    {%endif%}
+  </div>
+</body>
+</html>

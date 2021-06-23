@@ -1,0 +1,379 @@
+a{
+    text-decoration: none;
+}
+li{
+    display: inline-block;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+.appoint-btn{
+    width: 12rem;
+    background-color: #a5c422;
+    color: white;
+}
+.appoint-lable{
+    text-align: left;
+}
+.appoint-name, .appoint-email,.appoint-date,.appoint-department,.appoint-phone,.appoint-message{
+    margin-top: 15px;
+}
+.about-text{
+    line-height: 2.2rem;
+    color: rgb(122, 122, 122);
+}
+.carousal-img{
+    height: 41rem;
+    filter: brightness(80%);
+}
+.container{
+    margin-right: auto;
+    margin-left: auto;
+}
+.col-md-6{
+    width: 50%;
+}
+.col{
+    background-color: white;
+}
+.doc-heading{
+    margin-top: 120px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    font-size: 2.5rem;
+}
+.doc-phone-icon, .doc-email-icon{
+    font-size: 18px;
+    color: rgb(122, 122, 122);
+}
+.doc-img{
+    height: 60%;
+    width: 100%;
+    padding-left: 25px;
+}
+.doc-sub{
+    background-color: rgb(248, 245, 245);
+    margin-left: 25px;
+    padding-top: 35px;
+    padding-left: 30px;
+    padding-bottom: 0px;
+}
+.doc-sep{
+    width: 90%;
+    margin: 30px 0;
+}
+.doc-social{
+    display: inline-block;
+    opacity: 0;
+}
+.doc-type{
+    font-size: 18px;
+    color: rgb(122, 122, 122);
+}
+.form-control{
+    background-color: rgb(248, 245, 245);
+    border: none;
+    margin-top: 7px;
+}
+.foot-sq-contact{
+    color: rgb(122, 122, 122);
+}
+.foot-txt-contact{
+    font-size: 14px;
+    color: rgb(122, 122, 122);
+}
+.foot-news-img{
+    border-radius: 100%;
+    width: 65px;
+    height: 65px;
+}
+.foot-stories-img, .foot-stories-info{
+    display: inline-block;
+    vertical-align: top;
+    padding-top: 20px;
+}
+.foot-stories-info span{
+    font-size: 14px;
+    color: rgb(122, 122, 122);
+}
+.foot-stories-info-head{
+    color: rgb(83, 83, 83);
+}
+.foot-opening-hrs span{
+    font-size: 14px;
+    padding-left: 10px;
+    color: rgb(122, 122, 122);
+}
+.foot-socials ul li{
+    margin-right: 10px;
+}
+.foot-socials ul li a{
+    color: rgb(83, 83, 83);
+    text-decoration: none;
+}
+.foot-hr{
+    width: 100%;
+    color: rgb(122, 122, 122);
+    margin: 40px 0;
+}
+.foot-copyright{
+    text-align: center;
+    color: rgb(122, 122, 122);
+    font-size: 14px;
+}
+.form-group .col{
+    background-color: rgb(235, 232, 232);
+}
+.header-left-text{
+    font-size: 14px;
+    color: rgb(168, 167, 167);
+    text-align: left;
+    margin-bottom: 0;
+}
+.head-col{
+    text-align: right;
+}
+.heart-form-head{
+    text-align: left;
+    margin-bottom: 20px;
+}
+.heart-col{
+    margin-bottom: 20px;
+}
+.heart-form-control, .liver-form-control{
+    margin-top: 7px;
+    margin-bottom: 15px;
+    border-radius: 3px;
+    border-width: 0px;
+    border-color: rgb(122, 122, 122);
+    font-size: 1rem;
+    width: 85%;
+    height: 60%;
+}
+.liver-img-width{
+    height: 90%;
+    width: 110%;
+}
+.liver-age-box{
+    width: 93%;
+    padding: 10px 0;
+}
+.liver-btn{
+    background-color: #a5c422;
+    color: white;
+    width: auto;
+}
+.navbar{
+    background-color: white;
+    
+}
+.navbar-pad{
+    margin-left: 37%;
+}
+.nav-item{
+    padding: 0 3%;
+    font-size: 15px;
+}
+.navbar-brand{
+    font-size: 2rem;
+}
+.news-img-set{
+    border-radius: 5px;
+    width: 100%;
+}
+.news-left-col, .news-right-col{
+    margin: 65px 0;
+}
+.news-deets-head{
+    margin: 20px 0;
+}
+.news-deets-share{
+    text-align: center;
+}
+.news-deets-share .btn-success{
+    background-color: rgb(29, 161, 242);
+    margin: 0px 5px;
+}
+.news-deets-share-btn{
+    border-radius: 100px;
+    font-size: 12px;
+    margin-top: 4px;
+    border: none;
+}
+.news-deets-categories{
+    margin-top: 20px;
+}
+.news-deets-categories h4 {
+    margin-bottom: 13px;
+}
+.news-deets-categories a{ 
+    text-decoration: none;
+    color: black;
+}
+.news-deets-tag{
+    margin-top: 20px;
+}
+.news-deets-tag h4 {
+    margin-bottom: 13px;
+}
+.news-deets-tag li a{
+    background-color: black;
+    padding: 7px;
+    text-decoration: none;
+    border-radius: 100px;
+    color: whitesmoke;
+}
+.phone-icon, .date-icon, .email-icon{
+    font-size: 14px;
+    color: rgb(168, 167, 167);
+    padding: 0 10px;
+}
+.row-cols-1{
+    background-color: rgb(248, 245, 245);
+}
+.serv{
+    background-color: rgb(248, 245, 245);
+    margin-top: 65px;
+}
+.serv-card{
+    margin-left: 25%;
+    margin-top: 40px;
+}
+.serv-card-1{
+    background-color: rgb(248, 245, 245);
+}
+.serv-card-2{
+    background-color: rgb(248, 245, 245);
+    margin-left: 4rem;
+}
+.serv-card-1-header, .serv-card-2-header{
+    background-color: white;
+}
+.serv-card-1-button, .serv-card-2-button{
+    border-color: grey;
+}
+.serv-head{
+    text-align: center;
+    margin: 35px;
+}
+.serv-top-text{
+    text-align: center;
+    margin: 1.5rem;
+    padding: 0 10rem;
+}
+.sb1{
+    padding-bottom: 25%;
+}
+.sb1-head{
+    margin-bottom: 2rem;
+    font-size: 4rem;
+}
+.sb1-text{
+    font-size: 18px;
+}
+.slider-btn-1{
+    align-items: center;
+    justify-content: center;
+    background-color: #a5c422;
+    color: white;
+    padding: 1.2%;
+}
+.slider-btn-1:hover{
+    color: black;
+}
+.sb2{
+    padding-bottom: 25%;
+}
+.sb2-head{
+    margin-bottom: 2rem;
+    font-size: 4rem;
+}
+.sb2-text{
+    font-size: 18px;
+}
+.slider-btn-2{
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(39, 39, 39);
+    color: white;
+    padding: 1.2%;
+}
+.slider-btn-2:hover{
+    color: yellowgreen;
+}
+.sb3{
+    padding-bottom: 25%;
+}
+.sb3-head{
+    margin-bottom: 2rem;
+    font-size: 4rem;
+}
+.sb3-text{
+    font-size: 18px;
+}
+.slider-btn-3{
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(44, 44, 238);
+    color: white;
+    padding: 1.2%;
+}
+.slider-btn-3:hover{
+    color: yellowgreen;
+}
+#appointment{
+    padding-top: 80px;
+    background-image: url('/Users/vismayrathod/Desktop/medicalwebsite/med/static/images/appointment-image.jpg');
+    background-size: contain;
+    background-repeat: repeat-y;
+
+}
+#appoint-submit{
+    background-color: #a5c422;
+    margin-top: 15px;
+    color: white;
+    height: 55px;
+}
+#about {
+    background: url('/Users/vismayrathod/Desktop/medicalwebsite/static/med/images/about-bg.jpg');
+    background-size: cover;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    margin-top: 30px;
+}
+#department{
+    border: none;
+    background-color: rgb(248, 245, 245);
+    margin-top: 10px;
+    width: 100%;
+    height: 42%;
+    border-radius: 3px;
+}
+#footer{
+    margin-top: 80px;
+}
+#heart-submit, #liver-submit{
+    background-color: #a5c422;
+    margin-top: 15px;
+    color: white;
+    height: 55px;
+    width: 93%;
+}
+#heart-form {
+    background-color: rgb(235, 232, 232);
+    padding-top: 80px;
+}
+#liver-form{
+    background-color: rgb(235, 232, 232);
+    padding-top: 80px;
+}
+#news-page{
+    background-color: rgb(248, 245, 245);
+}
+#services{
+    background-color: rgb(248, 245, 245);
+    width: 100%;
+}
+
+
+
+
