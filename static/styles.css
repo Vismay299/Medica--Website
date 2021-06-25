@@ -227,6 +227,13 @@ li{
     color: rgb(168, 167, 167);
     padding: 0 10px;
 }
+.predict-text{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding-left: 20%;
+    position: relative;
+}
 .row-cols-1{
     background-color: rgb(248, 245, 245);
 }
