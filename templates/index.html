@@ -58,7 +58,7 @@
                 <a class="nav-link" href="#about">About</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="file:///Users/vismayrathod/Desktop/medicalwebsite/med/templates/news.html">News</a>
+                <a class="nav-link" href="/news">News</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#footer">Contact</a>
@@ -81,7 +81,7 @@
                 <p class="sb1-text">Lets Make Your Life Happier</p>
                 <h1 class="sb1-head">Healthy Living</h1>
                 <div class="sb1"> 
-                    <button class="btn slider-btn-1">Meet Our Doctors</button>
+                    <a href="#doctors"><button class="btn slider-btn-1">Meet Our Doctors</button></a>
                 </div>
             </div>
         </div>
@@ -91,7 +91,7 @@
                 <p class="sb2-text">Lets Make Your Life Happier</p>
                 <h1 class="sb2-head">New Lifestyle</h1>
                 <div class="sb2"> 
-                    <button class="btn slider-btn-2">More About us</button>
+                    <a href="#about"><button class="btn slider-btn-2">More About us</button></a>
                 </div>
             </div>
         </div>
@@ -101,7 +101,7 @@
                 <p class="sb3-text">Lets Make Your Life Happier</p>
                 <h1 class="sb3-head">Your Health Benifits</h1>
                 <div class="sb3"> 
-                    <button class="btn slider-btn-3">Read More</button>
+                    <a href="/news"><button class="btn slider-btn-3">Read More</button></a>
                 </div>
             </div>
         </div>
@@ -234,7 +234,7 @@
                             <li>is suffering from</li>
                             <li>Liver disease</li>
                           </ul>
-                          <a href="/liver.html"><button type="button" class="btn liver-btn btn-lg w-100">Check Health</button></a>
+                          <a href="/liver"><button type="button" class="btn liver-btn btn-lg w-100">Check Health</button></a>
                         </div>
                       </div>
                     </div>
@@ -248,7 +248,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-6 col-sm-6">
-                    <img src="" alt="">
+                    <img src="{{url_for('static',filename='images/appointment-image.jpg') }}" alt="" height="560" width="570">
                 </div>
                 <div class="col-md-6 col-sm-6">
                     <form action="" role="form" method="POST">
@@ -303,7 +303,12 @@
             <div class="row">
                 <div class="col-md-6 col-sm-6">
                     <h2>Welcome to Your Medicure Centre</h2>
-                    <p class="about-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum ab tempore obcaecati, eum qui dolore, quos quam cum suscipit quas similique explicabo sed fugit, mollitia sapiente illo deserunt provident aliquam harum repudiandae asperiores rerum ducimus veniam. Rem architecto perferendis nostrum rerum tenetur. Hic atque nam tempore ducimus corrupti harum deleniti quo ipsum sapiente voluptate. Nesciunt, obcaecati! Modi numquam ipsa amet a impedit dignissimos, voluptates facere qui magnam porro obcaecati. Debitis consequatur sequi cumque alias amet maiores maxime labore a sit.</p>
+                    <p class="about-text">On the website a user has options ranging from gaining information about various medical terminologies/ departments to getting an appointment for checkups.
+
+                        It will also feature a special section where the user can check whether they are suffering from heart/liver disease. This is the special part of the project where the user enters certain information and based on that the ML model running in the backend predicts if the user suffers from said disease or not.</p>
+                </div>
+                <div  class="col-md-6 col-sm-6">
+                    <img class="about-img" src="{{url_for('static',filename='images/about-bg.jpg') }}" alt="" height="500" width="645">
                 </div>
             </div>
         </div>

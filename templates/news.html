@@ -49,22 +49,22 @@
             <div class="collapse navbar-collapse navbar-pad" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="/index">Home</a>
+                        <a class="nav-link" aria-current="page" href="/">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/index">Doctors</a>
+                        <a class="nav-link" href="/">Doctors</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="file:///Users/vismayrathod/Desktop/medicalwebsite/med/templates/index.html#about">About</a>
+                        <a class="nav-link" href="/">About</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">News</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="file:///Users/vismayrathod/Desktop/medicalwebsite/med/templates/index.html#footer">Contact</a>
+                        <a class="nav-link" href="/">Contact</a>
                     </li>
                     <li class="nav-item">
-                        <button type="button" class="btn appoint-btn">Make an Appointment</button>
+                        <a href="/"><button type="button" class="btn appoint-btn">Make an Appointment</button></a>
                     </li>
                 </ul>
             </div>
@@ -78,11 +78,63 @@
                 <div class="col-md-8 col-sm-6 news-left-col">
                     <div class="news-deets">
                         <div>
-                            <img class="news-img-set" src="/Users/vismayrathod/Desktop/medicalwebsite/med/images/news-image3.jpg" alt="">
+                            <img class="news-img-set" src="{{ url_for('static',filename='images/news-image3.jpg')}}" alt="">
                         </div>
                         <h3 class="news-deets-head">New technologies in the Medical Field</h3>
-                        <p class="phone-icon">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora tenetur itaque ducimus libero nobis excepturi illo in voluptas, vitae voluptatum obcaecati voluptatibus facere minima fuga voluptates aut deserunt! Nobis, quia exercitationem? Dolore est exercitationem, ut temporibus sunt modi laboriosam tempore asperiores voluptatem minus, corporis officia delectus ipsum. Doloremque veritatis minima quis corporis neque ipsum sint pariatur non voluptatum porro aperiam a dolorum, quo sunt, libero nam corrupti odit obcaecati aspernatur exercitationem! Expedita minima ratione delectus officiis aperiam vero optio temporibus beatae omnis explicabo! Voluptatem ad consectetur fugiat, sit perspiciatis fugit laborum praesentium porro repellendus. Dolores error eos voluptas hic reiciendis illum voluptatem officiis accusamus suscipit dignissimos, ullam corrupti. Repellendus, nemo vero? Debitis rerum est voluptatum dolor autem ratione exercitationem dolore error eum minus, repellat perferendis eos facere vero ea mollitia tempora ipsam sed magnam cupiditate odit reprehenderit nulla obcaecati? Totam quisquam, non eius illo porro eos reprehenderit ad unde quaerat consequatur quibusdam suscipit reiciendis debitis dolore dolor molestias voluptate ipsam quo facere numquam. Harum laudantium architecto labore repudiandae culpa, eveniet alias rem itaque dignissimos laborum odio enim ducimus nisi officiis quasi delectus repellendus vitae cumque asperiores autem pariatur suscipit, nihil explicabo! Rem enim, nisi harum porro aut voluptatem tempore earum debitis culpa id dicta, molestias placeat adipisci laudantium modi, inventore officia velit voluptate. Reiciendis, culpa dolorem itaque natus sunt nam cumque cupiditate doloribus voluptate exercitationem? Odit cumque porro nemo perspiciatis officia maxime ea cupiditate libero vel modi excepturi, assumenda adipisci labore! Fuga molestias ipsam hic debitis similique modi adipisci facilis eos reiciendis asperiores. Maiores ratione magni neque ex corporis error numquam, nobis sunt quas recusandae voluptate, dolorum laboriosam quia odit quam mollitia rerum sint eos cupiditate deleniti non voluptas. Pariatur molestias adipisci quis, tempora natus recusandae possimus. Ad omnis veniam odio iste ducimus, sed deleniti officiis est nulla facere mollitia, accusamus odit ea soluta voluptatum saepe tenetur unde ab, consequuntur magni eveniet voluptate. Iure maxime aperiam corrupti molestias aliquam, labore veniam alias porro inventore quae explicabo rerum repellendus velit dolores nam praesentium doloribus sapiente. Fugiat voluptatem sapiente a, praesentium commodi in. Vel facere impedit maxime quo sequi est a sed molestiae, minima, possimus expedita blanditiis dolores rem ut earum, error obcaecati repudiandae nesciunt rerum. Enim, rerum animi, voluptatibus neque est quam autem corporis nihil illum sapiente obcaecati corrupti, dolores omnis quisquam deserunt minus numquam explicabo quae delectus velit quis nesciunt expedita libero. Possimus totam excepturi illum, labore ad sint id dolor cupiditate quos laudantium, ipsa doloremque error eius? Sed nemo a commodi voluptates excepturi dolor soluta, deserunt at odit! Ipsam non velit iste pariatur atque ex maxime voluptate facilis quos qui veritatis soluta excepturi perferendis distinctio consequuntur quod molestias praesentium nulla illo, cupiditate animi. Recusandae atque sapiente molestias commodi vitae voluptates explicabo tenetur blanditiis quae accusantium nostrum distinctio, eveniet nesciunt cumque cupiditate laborum nihil animi. Est architecto eius pariatur? Eum, quis velit delectus aspernatur officia voluptate eveniet eos dolore temporibus quas cum soluta ex dicta enim, reiciendis aperiam minima distinctio nisi quae laboriosam repellat iure nihil laborum. At, nihil enim.</p>
-                    </div>
+                        <p class="phone-icon">
+                            10.  Smart inhalers 
+                            Inhalers are the main treatment option for asthma and if taken correctly, will be effective for 90% of patients. However, in reality, research shows that only about 50% of patients have their condition under control and as many as 94% don’t use inhalers properly. 
+                            To help asthma sufferers to better manage their condition, Bluetooth-enabled smart inhalers have been developed. A small device is attached to the inhaler which records the date and time of each dose and whether it was correctly administered. This data is then sent to the patients’ smartphones so they can keep track of and control their condition. Clinical trials showed that using the smart inhaler device used less reliever medicine and had more reliever-free days.
+                        <br>
+                        <br>
+                        9.  Robotic surgery  
+                            Robotic surgery is used in minimally invasive procedures and helps to aid in precision, control and flexibility. During robotic surgery, surgeons can perform very complex procedures that are otherwise either highly difficult or impossible. As the technology improves, it can be combined with augmented reality to allow surgeons to view important additional information about the patient in real time while still operating. While the invention raises concerns that it will eventually replace human surgeons, it is likely to be used only to assist and enhance surgeons’ work in the future. Read more about robotic surgery here.
+                        <br>
+                        <br>
+                        8.  Wireless brain sensors 
+                        Thanks to plastics, medical advances have allowed scientists and doctors to team up and create bioresorbable electronics that can be placed in the brain and dissolve when they are no longer needed, according to Plasticstoday.com. This medical device will aid doctors in measuring the temperature and pressure within the brain. Since the sensors are able to dissolve, they reduce the need for additional surgeries. 
+                        <br>
+                        <br>
+                        7.  3-D printing 
+                        If you haven’t heard, 3-D printers have quickly become one of the hottest technologies on the market. These printers can be used to create implants and even joints to be used during surgery. 3-D-printed prosthetics are increasingly popular as they are entirely bespoke, the digital functionalities enabling them to match an individual’s measurements down to the millimetre. The allows for unprecedently levels of comfort and mobility. 
+
+                        The use of printers can create both long lasting and soluble items. For example, 3-D printing can be used to ‘print’ pills that contain multiple drugs, which will help patients with the organisation, timing and monitoring of multiple medications. This is a true example of technology and medicine working together.  
+                        <br>
+                        <br>
+                        6.  Artificial organs 
+                        To take 3D printing up another notch, bio-printing is also an emerging medical technology. While it was initially ground-breaking to be able to regenerate skin cells for skin draughts for burn victims, this has slowly given way to even more exciting possibilities. Scientist have been able to create blood vessels, synthetic ovaries and even a pancreas. These artificial organs then grow within the patient’s body to replace original faulty one. The ability to supply artificial organs that are not rejected by the body’s immune system could be revolutionary, saving millions of patients that depend on life-saving transplants every year.  
+                        <br>
+                        <br>
+                        5.  Health wearables
+                        The demand for wearable devices has grown since their introduction in the past few years, since the release of bluetooth in 2000. People today use their phone to track everything from their steps, physical fitness and heartbeat, to their sleeping patterns. The advacement of these wearable technologies is in conjunction with rising chronic diseases like diabetes and cardiovascular disease, and aim to combat these by helping patients to monitor and improve their fitness. 
+
+                        In late 2018, Apple made headlines with their ground breaking Apple Series 4 Watch that has an integrated ECG to monitor the wearer's heart rhythms. Within days of its release, customers were raving about the life saving technology, which is able to detect potentially dangerous heart conditions much earlier than usual. The wearable devices market is forecast to reach $67 billion by 2024.
+                        <br>
+                        <br>
+                        4.  Precision medicine  
+                        As medical technology advances it is becoming more and more personalised to individual patients. Precision medicine, for example, allows physicians to select medicines and therapies to treat diseases, such as cancer, based on an individual’s genetic make-up. This personalised medicine is far more effective than other types of treatment as it attacks tumours based on the patient’s specific genes and proteins, causing gene mutations and making it more easily destroyed by the cancer meds.  
+
+                        Precision medicine can also be used to treat rheumatoid arthritis. It uses a similar mechanism of attacking the disease’s vulnerable genes to weaken it and reduce symptoms and joint damage.  
+                        <br>
+                        <br>
+                        3.  Virtual reality  
+                        Virtual reality has been around for some time. However, recently, with medical and technological advances, medical students have been able to get close to real life experience using technology. Sophisticated tools help them gain the experience they need by rehearsing procedures and providing a visual understanding of how the human anatomy is connected. The VR devices will also serve as a great aid for patients, helping with diagnosis, treatment plans and to help prepare them for procedures they are facing. It has also proved very useful in patient rehabilitation and recovery. 
+                        <br>
+                        <br>
+                        2.  Telehealth 
+                        In a technologically driven world, it’s thought that as many as 60% of customers prefer digitally-led services. Telehealth describes a quickly developing technology that allows patients to receive medical care through their digital devices, instead of waiting for face-to-face appointments with their doctor. For example, highly-personalised mobile apps are being developed which allow patients to speak virtually with physicians and other medical professionals to receive instant diagnosis and medical advice. 
+
+                        With oversubscribed services, telehealth gives patients different access points to healthcare when and where they need it. It is particularly useful for patients managing chronic conditions as it provides them with consistent, convenient and cost-effective care. The global telemedicine market is expected to be worth $113.1 billion by 2025.  
+                        <br>
+                        <br>
+                        1.  CRISPR   
+                        Clustered Regularly Interspaced Short Palindromic Repeats (CRISPR) is the most advanced gene-editing technology yet. It works by harnessing the natural mechanisms of the immune systems of bacterium cells of invading viruses, which is then able to ‘cut out’ infected DNA strands. This cutting of DNA is what has the power to potentially transform the way we treat disease. By modifying genes, some of the biggest threats to our health, like cancer and HIV, could potentially be overcome in a matter of years.  
+
+                        However, as with all powerful tools there are several controversies surrounding its widespread use, mostly over humanity’s right to ‘play God’ and worries over gene-editing being used to produce hordes of designer babies. CRISPR is still a first-generation tool and its full capabilities are not yet understood. 
+                        </p>
+
+                            
+                        </div>
 
 
                     <div class="news-deets-share">
@@ -101,7 +153,7 @@
                         <div class="news-deets-recent">
                             <h4>Recent News</h4>
                             <div class="foot-stories-img">
-                                <img class="foot-news-img" src="/Users/vismayrathod/Desktop/medicalwebsite/med/images/news-image.jpg" alt="">
+                                <img class="foot-news-img" src="{{ url_for('static',filename='images/news-image.jpg')}}" alt="">
                             </div>
                             <div class="foot-stories-info">
                                 <a href="#"><h6 class="foot-stories-info-head">New Technology</h6></a>
@@ -109,7 +161,7 @@
                             </div>
                             <br>
                             <div class="foot-stories-img">
-                                <img class="foot-news-img" src="/Users/vismayrathod/Desktop/medicalwebsite/med/images/news-image.jpg" alt="">
+                                <img class="foot-news-img" src="{{ url_for('static',filename='images/news-image.jpg')}}" alt="">
                             </div>
                             <div class="foot-stories-info">
                                 <a href="#"><h6 class="foot-stories-info-head">Medical Miracle</h6></a>
@@ -165,7 +217,7 @@
                     <div class="foot-thumb">
                         <h4>Latest News</h4>
                         <div class="foot-stories-img">
-                            <img class="foot-news-img" src="/Users/vismayrathod/Desktop/medicalwebsite/med/images/news-image.jpg" alt="">
+                            <img class="foot-news-img" src="{{ url_for('static',filename='images/news-image.jpg')}}" alt="">
                         </div>
                         <div class="foot-stories-info">
                             <a href="#"><h6 class="foot-stories-info-head">New Technology</h6></a>
@@ -173,7 +225,7 @@
                         </div>
                         <br>
                         <div class="foot-stories-img">
-                            <img class="foot-news-img" src="/Users/vismayrathod/Desktop/medicalwebsite/med/images/news-image.jpg" alt="">
+                            <img class="foot-news-img" src="{{ url_for('static',filename='images/news-image.jpg')}}" alt="">
                         </div>
                         <div class="foot-stories-info">
                             <a href="#"><h6 class="foot-stories-info-head">Medical Miracle</h6></a>
