@@ -42,6 +42,12 @@ def predict_liv():
     elif output==2:
         return render_template('liver.html',prediction_text='You Have liver disease')
 
+@app.route('/news')
+def news():
+    return render_template('news.html')
+
+
+
 
 @app.route("/signup", methods=['GET',"POST"])
 def signup():
@@ -61,6 +67,10 @@ def signup():
             msg = 'Something went wrong'
 
     return render_template("signup.html",msg=msg)
+
+@app.route('/login')
+def login():
+    return render_template('login.html')
 
 if __name__ == "__main__":
     app.run(debug=True)
